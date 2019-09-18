@@ -9,4 +9,8 @@
     <ul>
       <li>Mouse Move End Event prints latitude, longitude and height FROM 3DTILES to console</li>
     </ul>
+  <li>get_all_attributes_from_3dtiles</li>
+    <ul>
+      <li>Mouse Move End Event prints all attributes FROM 3DTILES to console</li>
+    </ul>
   </ul>
