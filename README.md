@@ -17,6 +17,10 @@
     <ul>
       <li>Mouse Move End picks instances, highlight them and shows overlayed tag on them</li>
     </ul>
+  <li>move_camera_with_keyboard_and_display_vr.js</li>
+    <ul>
+      <li>Keyboard W,S,A,D buttons trigger camera movements and view is able to view in VR mode</li>
+    </ul>
   </ul>
   
   
