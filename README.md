@@ -25,6 +25,10 @@
     <ul>
       <li>Hide unfiltered instances using attributes in 3D Tiles.</li>
     </ul>
+  <li>Camera_flyto_3Dgeometry_extent_points.js</li>
+    <ul>
+      <li>Camera fly to extent points of a 3D geometry using BoundingSphere.</li>
+    </ul>
   </ul>
   
   
