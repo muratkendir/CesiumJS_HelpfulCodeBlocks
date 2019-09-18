@@ -21,6 +21,10 @@
     <ul>
       <li>Keyboard W,S,A,D buttons trigger camera movements and view is able to view in VR mode</li>
     </ul>
+  <li>show_only_filtered_instances.js</li>
+    <ul>
+      <li>Hide unfiltered instances using attributes in 3D Tiles.</li>
+    </ul>
   </ul>
   
   
