@@ -1,15 +1,10 @@
-// Grant CesiumJS access to your ion assets
-Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3MjY0OWM1MS1iMWFmLTQ3YWEtYWJjOS02YmQwOTJmMWVhODEiLCJpZCI6NzQyMywic2NvcGVzIjpbImFzciIsImdjIl0sImlhdCI6MTU0OTM1ODY0MX0.bWXdTNtZ_IcmsgquKKsEUbc04RaM9XWdX4oE2U5HcWo';
-
-var viewer = new Cesium.Viewer('cesiumContainer',{
-    terrainProvider : new Cesium.CesiumTerrainProvider({
-        url: Cesium.IonResource.fromAssetId(31675)
-    })
+var viewer = new Cesium.Viewer('cesiumContainer', {
+    terrainProvider: Cesium.createWorldTerrain()
 });
 
 var tileset = viewer.scene.primitives.add(
     new Cesium.Cesium3DTileset({
-        url: Cesium.IonResource.fromAssetId(33648)
+        url: Cesium.IonResource.fromAssetId(5741)
     })
 );
 
