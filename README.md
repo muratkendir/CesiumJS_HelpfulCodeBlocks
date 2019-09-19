@@ -23,7 +23,7 @@
     </ul>
   <li>show_only_filtered_instances.js</li>
     <ul>
-      <li>Hide unfiltered instances using attributes in 3D Tiles.</li>
+      <li>Shows only filtered instances using attributes in 3D Tiles.</li>
     </ul>
   <li>Camera_flyto_3Dgeometry_extent_points.js</li>
     <ul>
