@@ -29,6 +29,10 @@
     <ul>
       <li>Camera fly to extent points of a 3D geometry using BoundingSphere.</li>
     </ul>
+  <li> highlight_3dtiles_intance_and_show_tag_w_att.js</li>
+    <ul>
+      <li>Another sample to highlight mouse over instances in 3D tiles and show tag using embedded attributes</li>
+    </ul>
   </ul>
   
-  
+ 
