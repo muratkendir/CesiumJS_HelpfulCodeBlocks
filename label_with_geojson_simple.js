@@ -1,14 +1,7 @@
-//Load a GeoJSON file containing simplestyle information.
-//To learn more about simplestyle, see https://github.com/mapbox/simplestyle-spec
-
-//In this particular example, the name of each entity is set to its maki icon identifier.
-//Clicking on each billboard will show it's identifier in the InfoBox.
-
 var viewer = new Cesium.Viewer('cesiumContainer');
 
 var promise = Cesium.GeoJsonDataSource.load('../../SampleData/simplestyles.geojson');
 promise.then(function(dataSource) {
-    viewer.dataSources.add(dataSource);
     var entityLabelCollectionIdx = {};
     var entityLabelCollection;
     // Get the array of entities
@@ -26,9 +19,13 @@ promise.then(function(dataSource) {
         labelEntity.position = new Cesium.Cartesian3(0,0,0);
         entityLabelCollection.push(labelEntity);
     }
-    console.dir(entities[5]);
-    viewer.zoomTo(dataSource);
+    // Print all labels
+        entityLabelCollection.forEach(function(item) {
+            dataSource.entities.add(item);
+        });
+     
 });
+
 
 
 
