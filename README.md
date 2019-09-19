@@ -33,6 +33,10 @@
     <ul>
       <li>Another sample to highlight mouse over instances in 3D tiles and show tag using embedded attributes</li>
     </ul>
+    <li>get_only_latlongheight_from_3dtiles_using_left_click.js</li>
+    <ul>
+      <li>Another lat long height sampler with <b>LEFT_CLICK</b> action.</li>
+    </ul>
   </ul>
   
  
