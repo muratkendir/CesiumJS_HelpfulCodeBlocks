@@ -27,7 +27,7 @@
     </ul>
   <li>Camera_flyto_3Dgeometry_extent_points.js</li>
     <ul>
-      <li>Camera fly to extent points of a 3D geometry using BoundingSphere.</li>
+      <li>Camera fly to corner points of a 3D oriented boundary box using BoundingSphere.</li>
     </ul>
   <li> highlight_3dtiles_intance_and_show_tag_w_att.js</li>
     <ul>
