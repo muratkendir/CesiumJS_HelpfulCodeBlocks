@@ -3,11 +3,11 @@
 <ul>
   <li>get_lat_long_height_from_terrain.js</li>
   <ul>
-    <li>Mouse Left Click event prints latitude, longitude and height FROM TERRAIN to console</li>
+    <li>Mouse Left Click event prints latitude, longitude and height <b>FROM TERRAIN</b> to console</li>
   </ul>
   <li>get_lat_long_height_from_3dtiles</li>
     <ul>
-      <li>Mouse Move End Event prints latitude, longitude and height FROM 3DTILES to console</li>
+      <li>Mouse Move End Event prints latitude, longitude and height <b>FROM 3DTILES</b> to console</li>
     </ul>
   <li>get_all_attributes_from_3dtiles</li>
     <ul>
@@ -35,7 +35,7 @@
     </ul>
     <li>get_only_latlongheight_from_3dtiles_using_left_click.js</li>
     <ul>
-      <li>Another lat long height sampler with <b>LEFT_CLICK</b> action.</li>
+      <li>Another lat long height sampler with <b>LEFT_CLICK</b> action on <b>3D TILES</b>.</li>
     </ul>
   </ul>
   
