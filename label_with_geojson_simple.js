@@ -10,13 +10,13 @@ promise.then(function(dataSource) {
     for( var i=0;i<=entities.length;i++)
     {
         var entity = entities[i];
-        var entitiyposition = entity.position._value;
-        var entitiyname = entity.name;
+        var entityposition = entity.position._value;
+        var entityname = entity.name;
         var entitycolor = entity.properties["marker-color"]._value;
         console.log(entitycolor);
         labels.add({
-          position : entitiyposition,
-          text : entitiyname,
+          position : entityposition,
+          text : entityname,
           font: '30px sans-serif',
           fillColor : Cesium.Color.fromCssColorString(entitycolor)
         });
