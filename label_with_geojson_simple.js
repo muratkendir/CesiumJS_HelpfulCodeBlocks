@@ -1,28 +1,22 @@
 var viewer = new Cesium.Viewer('cesiumContainer');
 
-var promise = Cesium.GeoJsonDataSource.load('../../SampleData/simplestyles.geojson');
+var promise = Cesium.GeoJsonDataSource.load('../../../../Apps/SampleData/simplestyles.geojson');
 promise.then(function(dataSource) {
-    var entityLabelCollectionIdx = {};
-    var entityLabelCollection;
+    var labels = viewer.scene.primitives.add(new Cesium.LabelCollection());
+
     // Get the array of entities
     var entities = dataSource.entities.values;
     for( var i=0;i<=entities.length;i++)
     {
         var entity = entities[i];
-        var labelEntity = {
-                    label: {
-                        text: entity.name,
-                        font: '30px sans-serif',
-                        show: true
-                    }
-                };
-        labelEntity.position = new Cesium.Cartesian3(0,0,0);
-        entityLabelCollection.push(labelEntity);
-    }
-    // Print all labels
-        entityLabelCollection.forEach(function(item) {
-            dataSource.entities.add(item);
+        console.log(entity.position);
+        labels.add({
+          position : new Cesium.Cartesian3.fromDegrees(29, 41, 200),
+          text : 'A label'
         });
+        
+    }
+   
      
 });
 
