@@ -13,6 +13,11 @@
     <ul>
       <li>Mouse Move End Event prints all attributes FROM 3DTILES to console</li>
     </ul>
+  <li>get_all_attributes_from_3dtiles_by_left_click.js
+      <ul>
+        <li>LEFT CLICK Event prints all attributes FROM 3DTILES to console</li>
+      </ul>
+  </li>
   <li>highlight_picked_feature_and_show_overlay_tags</li>
     <ul>
       <li>Mouse Move End picks instances, highlight them and shows overlayed tag on them</li>
