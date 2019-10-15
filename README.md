@@ -11,11 +11,11 @@
     </ul>
   <li>get_all_attributes_from_3dtiles</li>
     <ul>
-      <li>Mouse Move End Event prints all attributes FROM 3DTILES to console</li>
+      <li>Mouse Move End Event prints <b><i>all attributes</i> FROM 3DTILES</b> to console</li>
     </ul>
   <li>get_all_attributes_from_3dtiles_by_left_click.js
       <ul>
-        <li>LEFT CLICK Event prints all attributes FROM 3DTILES to console</li>
+        <li>LEFT CLICK Event prints <b><i>all attributes</i> FROM 3DTILES</b> to console</li>
       </ul>
   </li>
   <li>highlight_picked_feature_and_show_overlay_tags</li>
