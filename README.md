@@ -7,7 +7,7 @@
   </ul>
   <li>get_lat_long_height_from_3dtiles</li>
     <ul>
-      <li>Mouse Move End Event prints latitude, longitude and height <b>FROM 3DTILES</b> to console</li>
+      <li>Mouse Move End Event prints <b><i>latitude, longitude and height</b></i> <b>FROM 3DTILES</b> to console</li>
     </ul>
   <li>get_all_attributes_from_3dtiles</li>
     <ul>
