@@ -33,15 +33,13 @@ handler.setInputAction(function (result) {
     if (pickedObjects.length >= 1) {
         for (var j = 0; j < pickedObjects.length; j++) {
 
-            if (pickedObjects[j].tileset === tileset1) {
-                console.log(j);
-            } else {
+            if (pickedObjects[j].tileset !== tileset1) {
                 pickedObjects.splice(j, 1);
-            }
+            } 
         }
         
         var feature = pickedObjects[0];
-        console.dir(feature);
+        
 
         if (feature instanceof Cesium.Cesium3DTileFeature) {
             var propertyNames = feature.getPropertyNames();
