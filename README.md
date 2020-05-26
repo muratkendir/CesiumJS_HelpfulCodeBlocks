@@ -42,6 +42,10 @@
     <ul>
       <li>Another lat long height sampler with <b>LEFT_CLICK</b> action on <b>3D TILES</b>.</li>
     </ul>
+  <li>slow_down_mouse_wheel_zoom.js</li>
+    <ul>
+      <li>Slow down <b>mouse wheel</b> zoom amount using camera height as factor.</li>
+    </ul>
   </ul>
   
  
