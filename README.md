@@ -1,4 +1,6 @@
 # CesiumJS_HelpfulCodeBlocks
+> The content in this repository is a bit old. All scripts were created around the time of Cesium 1.100 release. I recommend you to visit the [kendir.eu](https://kendir.eu) website to see the current Cesium code.
+
 <h2><i>Helpful code blocks and / or examples based on CesiumJS</i></h2>
 <ul>
   <li>get_lat_long_height_from_terrain.js</li>
